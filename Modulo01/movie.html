@@ -8,7 +8,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-	<title>Contacto | IMDB</title>
+	<title>El caballero oscuro | IMDB</title>
 </head>
 <body>
 
@@ -22,12 +22,12 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="index.html">Inicio</a>
+						<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
 					</li>
 					<!--<li class="nav-item">
 						<a class="nav-link" href="#">Link</a>
 					</li>-->
-					<li class="nav-item dropdown">
+					<li class="nav-item dropdown active">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Películas
 						</a>
@@ -49,8 +49,8 @@
 							<a class="dropdown-item" href="#">Encuestas</a>
 						</div>
 					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="contact.html">Contactar  <span class="sr-only">(current)</span></a>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contactar</a>
 					</li>
 					<!--<li class="nav-item">
 						<a class="nav-link disabled" href="#">Disabled</a>
@@ -66,36 +66,77 @@
 	</nav>
 	<br />
 	<div class="container">
-		<form>
+		<div class="row">
+			<div class="col-md-12">
+				<h2>El caballero oscuro <small class="text-muted">(2008)</small></h2>
+			</div>
+		</div>
 
-			<div class="form-group row">
-				<label for="inputName" class="col-sm-2 col-form-label">Nombre</label>
-				<div class="col-sm-10">
-					<input type="text" class="form-control" id="inputName" placeholder="Nombre">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="text-center">
+					<img src="https://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="El caballero oscuro" />
+
 				</div>
 			</div>
-			<div class="form-group row">
-				<label for="inputMail" class="col-sm-2 col-form-label">Correo</label>
-				<div class="col-sm-10">
-					<input type="email" class="form-control" id="inputMail" placeholder="Correo electrónico">
+			<div class="col-md-9">
+
+				<div class="row">
+					<div class="col-md-12">
+
+
+						<div class="form-group row">
+							<label for="staticEmail" class="col-sm-4 col-form-label">Posición Ranking</label>
+							<div class="col-sm-8">
+								<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="#4">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="staticEmail" class="col-sm-4 col-form-label">Puntuación</label>
+							<div class="col-sm-8">
+								<i class="material-icons">star_rate</i>
+								<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="9.4">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="staticEmail" class="col-sm-4 col-form-label">Año</label>
+							<div class="col-sm-8">
+								<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="2008">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="staticEmail" class="col-sm-4 col-form-label">Reparto</label>
+							<div class="col-sm-8">
+								<textarea class="form-control input-disabled" readonly id="exampleFormControlTextarea1" rows="4">
+Christopher Nolan (dir.)
+Christian Bale
+Heath Ledger
+								</textarea>
+							</div>
+						</div>
+					</div>
+
 				</div>
+
 			</div>
-			<div class="form-group row">
-				<label for="inputAsunto" class="col-sm-2 col-form-label">Asunto</label>
-				<div class="col-sm-10">
-					<input type="text" class="form-control" id="inputAsunto" placeholder="Asunto">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="exampleFormControlTextarea1">Mensaje</label>
-				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-4">
+				<a href="https://www.imdb.com/title/tt0468569/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=4DQD8YH3NGVPC1XMGDHN&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_4" target="_blank" class="btn btn-warning">Ver ficha en IMDB</a>
 			</div>
 
-			<button type="submit" class="btn btn-primary">Enviar mensaje</button>
-		</form>
+			<div class="col-md-4">
+				<button type="button" class="btn btn-primary">Acualizar</button>
+			</div>
+			<div class="col-md-4">
+				<button type="button" class="btn btn-danger">Borrar</button>
+			</div>
+		</div>
 
 	</div>
-
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		  rel="stylesheet">
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
