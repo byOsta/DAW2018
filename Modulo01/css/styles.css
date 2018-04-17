@@ -1,16 +1,16 @@
 .input-disabled {
-	background-color: #FFF !important;
+	background-color: #FFF !important
 }
 
 .wrapper {
 	position: relative;
-	overflow: hidden;
+	overflow: hidden
 }
 
 .wrapper:after {
 	content: '';
 	display: block;
-	padding-top: 100%;
+	padding-top: 100%
 }
 
 .wrapper img {
@@ -20,12 +20,10 @@
 	position: absolute;
 	left: 50%;
 	top: 0;
-	transform: translateX(-50%);
+	transform: translateX(-50%)
 }
 
-.imgCarousel{
-
+.imgCarousel {
 	width: 100%;
-	height: 100%;
-
+	height: 100%
 }
