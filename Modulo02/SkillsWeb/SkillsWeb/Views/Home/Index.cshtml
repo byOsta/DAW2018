@@ -28,7 +28,7 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text" id="searchIcon"><i class="material-icons">search</i></span>
 					</div>
-					<input type="text" class="form-control" id="searchMovies" placeholder="Buscar películas" aria-describedby="Buscar películas">
+					<input type="text" onkeyup="filterMovies()" class="form-control" id="searchMovies" placeholder="Buscar películas" aria-describedby="Buscar películas">
 				</div>
 			</div>
 		</div>
@@ -60,7 +60,7 @@
 	@foreach (var movie in Model)
 	{
 
-		<div class="pl-5 col-md-4">
+		<div class="pl-5 col-md-4 movieItem">
 			<a href="../Movie/Index?movieId=@movie.MovieId" title="@movie.Title">
 				<div class="card text-center mb-4" style="width: 18rem;">
 					<div class="card-header">
@@ -71,6 +71,12 @@
 					</div>
 					<div class="card-body">
 						<h5 class="card-title">@movie.Title</h5>
+						<h5 class="card-actor" style="display: none;">
+							@movie.Artist.Name @foreach (var item in movie.Artists)
+						{
+							@item.Name
+						}
+						</h5>
 						<h6 class="card-subtitle mb-2 text-muted">Año: @movie.Year</h6>
 						<h6 class="card-subtitle mb-2">Puntuación: @movie.Rating</h6>
 						<!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
@@ -133,4 +139,24 @@
 			]
 		});
 	});
+
+
+	function filterMovies() {
+		// Declare variables
+		var input, filter, ul, li, a, i;
+		input = document.getElementById('searchMovies');
+		filter = input.value.toUpperCase();
+		ul = document.getElementById("movieList");
+		li = ul.getElementsByTagName('li');
+
+		$("#movieList .movieItem").each(function (index, value) {
+			if ($(value).find(".card-title")[0].innerHTML.toUpperCase().indexOf(filter) > -1 || $(value).find(".card-actor")[0].innerHTML.toUpperCase().indexOf(filter) > -1) {
+				$(value).css("display", "");
+			} else {
+				$(value).css("display", "none");
+			}
+		})
+	}
+
+
 </script>
