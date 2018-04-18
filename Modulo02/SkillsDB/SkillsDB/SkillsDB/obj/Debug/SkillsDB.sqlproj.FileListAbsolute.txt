@@ -1,0 +1,10 @@
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsDB\SkillsDB\SkillsDB\bin\Debug\SkillsDB.dacpac
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsDB\SkillsDB\SkillsDB\bin\Debug\SkillsDB.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsDB\SkillsDB\SkillsDB\bin\Debug\SkillsDB.pdb
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsDB\SkillsDB\SkillsDB\obj\Debug\SkillsDB.sqlprojResolveAssemblyReference.cache
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsDB\SkillsDB\SkillsDB\obj\Debug\Model.xml
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsDB\SkillsDB\SkillsDB\obj\Debug\refactor.xml
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsDB\SkillsDB\SkillsDB\obj\Debug\postdeploy.sql
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsDB\SkillsDB\SkillsDB\obj\Debug\predeploy.sql
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsDB\SkillsDB\SkillsDB\obj\Debug\SkillsDB.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsDB\SkillsDB\SkillsDB\obj\Debug\SkillsDB.pdb

@@ -1,0 +1,94 @@
+﻿@model  SkillsMVC.DataLayer.Models.DTO.MovieDTO
+@{
+	ViewBag.Title = @Model.Title;
+}
+<div class="row">
+	<div class="col-md-12">
+		<h2>@Model.Title <small class="text-muted">(@Model.Year)</small></h2>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="text-center">
+			<img src="@Model.Image" alt="@Model.Title" />
+
+		</div>
+	</div>
+	<div class="col-md-9">
+
+		<div class="row">
+			<div class="col-md-12">
+
+
+				<div class="form-group row">
+					<label for="staticEmail" class="col-sm-4 col-form-label font-weight-bold">Posición Ranking</label>
+					<div class="col-sm-8">
+						<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="#@Model.Position">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="staticEmail" class="col-sm-4 col-form-label font-weight-bold">Puntuación</label>
+					<div class="col-sm-8">
+						<!--<i class="material-icons">star_rate</i>-->
+						<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="@Model.Rating">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="staticEmail" class="col-sm-4 col-form-label font-weight-bold">Año</label>
+					<div class="col-sm-8">
+						<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="@Model.Year">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="staticEmail" class="col-sm-4 col-form-label font-weight-bold">Reparto</label>
+					<div class="col-sm-8">
+						<textarea class="form-control input-disabled" readonly id="exampleFormControlTextarea1" rows="4">
+@Model.Artist.Name (dir.)
+@foreach (var actors in Model.Artists)
+{
+	@actors.Name;
+	@String.Format("\n")
+}
+								</textarea>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-md-4">
+
+
+		<a href="@String.Format("https://www.imdb.com" + Model.Link)" target="_blank" class="btn btn-warning">Ver ficha en IMDB</a>
+	</div>
+
+	<div class="col-md-4">
+		<button type="button" class="btn btn-primary">Acualizar</button>
+	</div>
+	<div class="col-md-4">
+		<button type="button" class="btn btn-danger" onclick="deleteMovie()">Borrar</button>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script>
+
+	function deleteMovie() {
+		var txt;
+		var r = confirm("¿Está seguro de que quiere borrar esta película?");
+		if (r == true) {
+
+			$.ajax({
+				type: 'GET',
+				url: "/Movie/Delete?movieId=@Model.MovieId",
+				success: function (result) {
+					console.log(result);
+				}
+			});
+		}
+	}
+</script>
