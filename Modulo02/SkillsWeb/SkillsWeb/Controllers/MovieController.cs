@@ -11,9 +11,13 @@ namespace SkillsWeb.Controllers
 {
     public class MovieController : Controller
     {
-		// GET: Movie
+
 		MovieService service = new MovieService();
 
+		/// <summary>
+		/// Get movie by id
+		/// </summary>
+		/// <param name="movieId">id</param>
 		public async Task<ActionResult> Index(int movieId)
         {
 			var movies = await service.GetAsync<MovieDTO>("http://localhost:44444/movies?id=" + movieId);
@@ -23,6 +27,10 @@ namespace SkillsWeb.Controllers
 			);
 		}
 
+		/// <summary>
+		/// Delete by id
+		/// </summary>
+		/// <param name="movieId">id to delete</param>
 		public async Task<ActionResult> Delete(int movieId)
 		{
 			var movies = await service.DeleteAsync("http://localhost:44444/movies?id=" + movieId);

@@ -13,9 +13,12 @@ namespace SkillsWeb.Controllers
 {
 	public class BestMoviesController : Controller
 	{
-
-		// GET: BestMovies
 		MovieService service = new MovieService();
+
+
+		/// <summary>
+		/// Get all movies
+		/// </summary>
 		public async Task<ActionResult> Index()
 		{
 

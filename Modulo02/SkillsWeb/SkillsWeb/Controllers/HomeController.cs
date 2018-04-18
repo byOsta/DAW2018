@@ -13,6 +13,10 @@ namespace SkillsWeb.Controllers
 	{
 		MovieService service = new MovieService();
 
+		/// <summary>
+		/// Get List of movies
+		/// </summary>
+		/// <returns>List<MovieDTO></returns>
 		public async Task<ActionResult> Index()
 		{
 			var movies = await service.GetAsync<List<MovieDTO>>("http://localhost:44444/movies");

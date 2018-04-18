@@ -18,18 +18,24 @@ namespace SkillsMVC.API.Controllers
 		private MovieCW _movieCW = new MovieCW();
 		#endregion
 
-		// GET api/values
+		/// <summary>
+		/// GET movies
+		/// </summary>
+		/// <returns>IEnumerable<MovieDTO></returns>
 		public IEnumerable<MovieDTO> Get()
 		{
-
+		
 			List<Movie> movies = _movieCW.GetAll();
 
 			var listMin  = _movieCW.Minify(movies).ToList();
 
 			return listMin;
 		}
-
-		// GET api/values/5
+		/// <summary>
+		/// GET movies?id={id}
+		/// </summary>
+		/// <param name="id">Id to obtain</param>
+		/// <returns>MovieDTO</returns>
 		public MovieDTO Get(int id)
 		{
 			return _movieCW.GetById(id);
@@ -45,7 +51,10 @@ namespace SkillsMVC.API.Controllers
 		{
 		}
 
-		// DELETE api/values/5
+		/// <summary>
+		/// DELETE api/values/5
+		/// </summary>
+		/// <param name="id">id to delete</param>
 		public void Delete(int id)
 		{
 			_movieCW.Delete(id);
