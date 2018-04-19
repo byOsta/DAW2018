@@ -1,0 +1,16 @@
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\SkillsMVC.DataLayer.dll.config
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\SkillsMVC.DataLayer.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\SkillsMVC.DataLayer.pdb
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\EntityFramework.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\LinqKit.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\Newtonsoft.Json.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\EntityFramework.xml
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\LinqKit.xml
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\bin\Release\Newtonsoft.Json.xml
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\obj\Release\SkillsMVC.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\obj\Release\SkillsMVC.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\obj\Release\SkillsMVC.DataLayer.csproj.CopyComplete
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\obj\Release\SkillsMVC.DataLayer.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.DataLayer\obj\Release\SkillsMVC.DataLayer.pdb

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SkillsContext-Web.config Connection String" description="SkillsContext Connection String used in web.config by the application to access the database." defaultValue="data source=DESKTOP-N7AE4MF\MSSQLSERVER01;initial catalog=SkillsDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jorge\ Osta\\Desktop\\Skills2018\\DAW2018\\Modulo02\\SkillsMVC\\SkillsMVC\.API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SkillsContext']/@connectionString" />
+  </parameter>
+</parameters>

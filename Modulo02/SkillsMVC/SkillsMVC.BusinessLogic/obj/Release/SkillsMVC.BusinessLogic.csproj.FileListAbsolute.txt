@@ -1,0 +1,17 @@
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\SkillsMVC.BusinessLogic.dll.config
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\SkillsMVC.BusinessLogic.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\SkillsMVC.BusinessLogic.pdb
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\EntityFramework.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\SkillsMVC.DataLayer.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\LinqKit.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\SkillsMVC.DataLayer.pdb
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\SkillsMVC.DataLayer.dll.config
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\EntityFramework.xml
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\bin\Release\LinqKit.xml
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\obj\Release\SkillsMVC.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\obj\Release\SkillsMVC.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\obj\Release\SkillsMVC.BusinessLogic.csproj.CopyComplete
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\obj\Release\SkillsMVC.BusinessLogic.dll
+C:\Users\Jorge Osta\Desktop\Skills2018\DAW2018\Modulo02\SkillsMVC\SkillsMVC.BusinessLogic\obj\Release\SkillsMVC.BusinessLogic.pdb
