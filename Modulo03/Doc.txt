@@ -1,0 +1,25 @@
+Deploy 
+1? Install SQL Server and SMSS
+2? Install IIS and Management service 
+3? Install Web Deploy for deploy on one click
+4? Configure IIS to have the API configured in the specified port and other site with the Web
+	https://gyazo.com/05cea35a2da8a75bd2985af761c86aa6
+5? Configure SQL Server with the DACpacs generated from the SkillsDB project and add a New User to access the DB
+6? Right click on Web (API and MVC) projects and click 'Publish'
+	https://gyazo.com/6d773cefd35f85e518572e62b7e02e39
+6? Configure Web Deploy on the API adding the new connection string for the db
+	https://i.gyazo.com/783013e52a64cf31c2ed7ba4d97da5b9.png (On site Name goes the Name selected on the IIS)
+	https://gyazo.com/d3f0d8836f8ba1cee03a66996e65175b
+	https://gyazo.com/5dcc4752f7b5612237d43e062130c268
+	Click on Save to add the Publish Configuration
+7? Configure Web Deploy on the MVC project
+	The proccess is the same already mentioned but in this project you don't need to configure the Database, and the connection 
+	to the API works because we were using localhost:44444
+8? To republish the project you have to click on publish again
+	https://gyazo.com/8107e67164337214306a88d87127a451
+
+	
+	
+References:
+https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis
+https://docs.microsoft.com/en-us/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy
